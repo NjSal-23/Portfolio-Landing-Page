@@ -17,6 +17,7 @@ img {
     height: auto;
     width: auto;
     max-width: 150px;
+    border-radius: 50%;
 }
 header {
     background-image: url('../images/engineer_table.jpeg');
