@@ -17,7 +17,7 @@ img {
     height: auto;
     width: auto;
     max-width: 150px;
-    border-radius: 50%;
+    border-radius: 45%;
 }
 header {
     background-image: url('../images/engineer_table.jpeg');
@@ -77,13 +77,12 @@ td:hover {
 .share p {
     border: 1px solid black;
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 18px;
     color: lightgray;
     background-color: gray;
     display: inline-block;
     margin: 5px;
     padding: 5px;
-    text-decoration: none;
 }
 
 @viewport {

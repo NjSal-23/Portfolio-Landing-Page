@@ -21,8 +21,8 @@
 p {
     color: lightgray;
     font-size: 20px;
-    text-align: justify;
-    padding: 10px;
+    text-align: left;
+    padding: 10px 25px;
 }
 ol li, ul li{
     color: lightgray;
@@ -33,7 +33,16 @@ ol li, ul li{
     padding: 10px 15px;
     list-style-position: inside;
 }
-.link { color: lightgray; } 
+
+a {
+     cursor: pointer;
+     text-decoration: none;
+}
+
+.link { 
+    color: lightgray; 
+} 
+
 .link:hover { 
     opacity: .50;
 }
