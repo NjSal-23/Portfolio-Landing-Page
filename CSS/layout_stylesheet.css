@@ -1,27 +1,26 @@
 body {
     background-color: black;
-    position: relative;
-    width: fit-content;
     margin: 0 auto;
 }
 
-main {
-    height: auto;
-    width: auto;
-}
+/* selfie image top left */
 
-.image-position {
-    text-align: left;
-}
 img {
     height: auto;
     width: auto;
     max-width: 150px;
     border-radius: 45%;
 }
+
+.image-position {
+    text-align: left;
+}
+
+/* header background image */
+
 header {
     background-image: url('../images/engineer_table.jpeg');
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-color: #cccccc; 
     height: 1000px; 
     width: auto;
     margin-bottom: 20px;
@@ -30,6 +29,8 @@ header {
     background-size: cover;
     border: 1px solid black;
 }
+
+/* main & section headers */
 
 .main-header, .section-header {
     color:lightgray;
@@ -45,6 +46,17 @@ header {
     background-color: gray;
 }
 
+/* main header text sizing */
+
+.large_type {
+    font-size: 56px;
+    color: black;
+    background-color: gray;
+    opacity: .75;
+}
+
+/* table of current and future projects */
+
 table, tr, th {
     border: 2px solid black;
     text-align: center;
@@ -52,7 +64,7 @@ table, tr, th {
     background-image: linear-gradient(to right, gray, black );
     color: lightgray;
     padding: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 td {
     border: 2px solid gray;
@@ -66,24 +78,28 @@ td:hover {
     opacity: .75;
 }
 
+/* footer section alignment and color */
+
 .share {
-    border: 1px solid black;
-    padding: 5px 0px;
-    position: relative;
+    padding: 10px 0px;
     text-align: center;
-    width: 100%;
     background: black;
 }
-.share p {
-    border: 1px solid black;
-    border-radius: 3px;
-    font-size: 18px;
-    color: lightgray;
+
+/* footer buttons and associated links */
+
+button {
     background-color: gray;
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
+    color: white;
 }
+
+a {
+    cursor: pointer;
+    text-decoration: none; /* removes underline from links */
+    color: white; 
+    opacity: .50;
+}
+
 
 @viewport {
   width: device-width ;

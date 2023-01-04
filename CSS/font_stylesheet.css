@@ -1,21 +1,8 @@
+/* general text format for page */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     box-sizing: border-box;
-}
-.large_type {
-    font-size: 56px;
-    color: black;
-    background-color: gray;
-    opacity: .75;
-}
-
-.main-table {
-    margin: 20px auto;
-}
-
-.center {
-    text-align: center;
 }
 
 p {
@@ -24,6 +11,15 @@ p {
     text-align: left;
     padding: 10px 25px;
 }
+
+/* header above <ul> element (list of languages) */
+
+.center {
+    text-align: center;
+}
+
+/* format for <li> within both <ul> and <ol> */
+
 ol li, ul li{
     color: lightgray;
     font-style: italic;
@@ -34,15 +30,4 @@ ol li, ul li{
     list-style-position: inside;
 }
 
-a {
-     cursor: pointer;
-     text-decoration: none;
-}
-
-.link { 
-    color: lightgray; 
-} 
-
-.link:hover { 
-    opacity: .50;
-}
+/* footer <a> formatting */
